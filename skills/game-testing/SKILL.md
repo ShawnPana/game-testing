@@ -35,7 +35,11 @@ You are **not** handed enemy positions or an aim button. Figure out aiming the w
 4. **Fire & read feedback.** Shoot, then look for the feedback the game shows a player — hit marker, blood, the enemy reacting/dying, score/ammo changing on the HUD. Correct and repeat.
 5. **Track movement** with a closed loop: re-screenshot, re-aim, re-fire.
 
-You will **not** be a great shot — a slow agent aiming from snapshots never is, and that's expected. You are not trying to win; you are demonstrating **from observation alone** that the see → aim → shoot → hit → kill chain works the way a player experiences it. (If you genuinely cannot land a shot, that itself is a finding about aim feel / target legibility — report it; don't reach for a backdoor.)
+You will **not** be a great shot — a slow agent aiming from snapshots never is, and that's expected. You are not trying to win.
+
+**Default behavior:** confirm the **see → aim → shoot → hit-feedback** link — put a shot on/near a target and verify the game responds (hit marker, blood, the enemy reacting, score/ammo changing). A full **kill** is the goal you push toward, but it is **not a required pass/fail gate**: if you can't reliably land kills by sight, confirm the firing + feedback mechanic and **report the aim difficulty as an aim-feel / target-legibility finding** — never fake a kill or reach for a backdoor.
+
+**Override:** if the handoff's "verify these" list asks for something stronger (e.g. "demonstrate a kill," "clear a wave," "reach the exit"), treat that as a **required directed item** and persist on it, marking it Works / Janky / Broken. The default is the floor; the user can always direct you to test anything specific.
 
 ## Approach: explore first, then play efficiently
 
